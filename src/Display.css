@@ -1,0 +1,30 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    height:500px ;
+    width: 490px; 
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 18px;
+    margin-left: 50px;
+    /* margin-bottom: 20px; */
+
+}
+
+.imageDiv{
+display: flex;
+padding: 5px;
+padding-right: 5px;
+}
+
+.featureDiv{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap:10px;
+  padding: 5px;
+  padding: 10px;
+
+}
+
+
